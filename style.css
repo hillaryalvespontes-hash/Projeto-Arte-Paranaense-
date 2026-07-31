@@ -1,15 +1,22 @@
 body{
     background-color: darkorchid;
     color: aqua;
+    font-family:Arial, sans-serif;
 }
 header{
     background-color: #0AFFED;
     color: #EEF5A6;
+    text-align: center;
+    padding: 30px;
 }
-main{
-    background-color: blue;
+h1{
+    font-size: 36px;
 }
-footer{
-    background-color: #C92A18;
-    color: #FFD9D4;
+h2{
+    color: deeppink;
+}
+   
+p{
+    font-size: 18px;
+    line-height: 1.6;
 }
