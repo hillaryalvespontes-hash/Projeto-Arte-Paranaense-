@@ -1,11 +1,11 @@
 body{
-    background-color: rgb(238, 144, 238);
+    background-color: rgb(195, 148, 248);
     color: rgb(0, 0, 0);
     font-family:Arial, sans-serif;
 }
 header{
     background-color: black;
-    color: #f5a6d7;
+    color: #9c5caf;
     text-align: center;
     padding: 30px;
 }
