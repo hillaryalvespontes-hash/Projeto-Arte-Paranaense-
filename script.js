@@ -1,8 +1,15 @@
-const botoesCurtir= document.querySelectorAll (".curtir");
-    botoesCurtir .forEach (function(botaoCurtir){
-        let curtiu= false;
-        botaoCurtir.addEventLitener("click",curtir);
-function curtiu(){
-    const contador = botaoCurtir .querySelector ("")
+const botoesCurtir = document.querySelectorA11(".curtir");
+botoesCurtir.forEach(function(curtir){
+let curtiu = false;
+botaoCurtir.addEverListener("click",curtir);
+function curtir(){
+const contador = botaoCurtir.querySelector("span");
+if(curtiu === false){
+contador.textContent++;
+curtiu = true;
 }
-    }
+else{
+contador.textContent--;
+curtiu = false;
+}
+} });
